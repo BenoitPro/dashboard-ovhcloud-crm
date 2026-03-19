@@ -1,0 +1,84 @@
+:root {
+  /* Fluent UI Brand Colors */
+  --color-brand: #0078d4;
+  --color-brand-dark: #106ebe;
+  --color-brand-darker: #005a9e;
+  --color-brand-light: #c7e0f4;
+  --color-brand-lightest: #eff6fc;
+
+  /* Neutrals */
+  --color-bg: #f3f2f1;
+  --color-surface: #ffffff;
+  --color-border: #edebe9;
+  --color-border-strong: #d2d0ce;
+  --color-text-primary: #323130;
+  --color-text-secondary: #605e5c;
+  --color-text-disabled: #a19f9d;
+  --color-nav-bg: #1b1a19;
+  --color-nav-text: #c8c6c4;
+  --color-nav-hover: #323130;
+  --color-nav-active: #0078d4;
+  --color-nav-active-bg: rgba(0,120,212,0.15);
+
+  /* Status Colors */
+  --color-success: #107c10;
+  --color-success-bg: #dff6dd;
+  --color-warning: #d83b01;
+  --color-warning-bg: #fed9cc;
+  --color-amber: #ca5010;
+  --color-amber-bg: #fff4ce;
+  --color-danger: #a4262c;
+  --color-danger-bg: #fde7e9;
+  --color-info: #0078d4;
+  --color-info-bg: #eff6fc;
+
+  /* Typography */
+  --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 20px;
+  --font-size-xl: 28px;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.06);
+  --shadow-lg: 0 16px 32px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.06);
+  --shadow-modal: 0 24px 48px rgba(0,0,0,0.20);
+
+  /* Layout */
+  --nav-width: 220px;
+  --header-height: 48px;
+  --kpi-height: 72px;
+  --modal-width: 480px;
+  --border-radius: 4px;
+  --border-radius-lg: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+  overflow: hidden;
+  height: 100vh;
+}
