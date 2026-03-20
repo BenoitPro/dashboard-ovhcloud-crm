@@ -2,7 +2,7 @@
 // Phase 2: replace fetch paths with Dynamics 365 API endpoints
 // See docs/api-integration-map.md for endpoint mapping
 
-const BASE = './js/data/';
+const BASE = '/js/data/';
 
 export async function loadUser() {
   const r = await fetch(`${BASE}mock-user.json`);

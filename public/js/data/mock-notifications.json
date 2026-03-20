@@ -1,0 +1,52 @@
+[
+  {
+    "id": "notif-001",
+    "type": "churn_risk",
+    "title": "Risque churn — Decathlon",
+    "body": "Consommation cloud en baisse de 18% sur 30 jours. Contrat expire dans 47 jours.",
+    "account_id": "acc-001",
+    "urgency": "high",
+    "cta": "Appeler maintenant",
+    "timestamp": "2026-03-19T07:30:00"
+  },
+  {
+    "id": "notif-002",
+    "type": "upsell",
+    "title": "Signal upsell — Engie Digital",
+    "body": "Hausse de consommation +34% sur 30 jours. 4 offres d'emploi Cloud Architect actives.",
+    "account_id": "acc-002",
+    "urgency": "medium",
+    "cta": "Voir l'opportunité",
+    "timestamp": "2026-03-19T07:45:00"
+  },
+  {
+    "id": "notif-003",
+    "type": "renewal",
+    "title": "Renouvellement critique — Société Générale",
+    "body": "Contrat expire dans 12 jours. Aucune action enregistrée cette semaine.",
+    "account_id": "acc-003",
+    "urgency": "critical",
+    "cta": "Voir le contrat",
+    "timestamp": "2026-03-19T08:00:00"
+  },
+  {
+    "id": "notif-004",
+    "type": "news",
+    "title": "News — Air France-KLM",
+    "body": "Air France-KLM cherche à réduire ses coûts cloud de 30% — article Les Echos.",
+    "account_id": "acc-005",
+    "urgency": "low",
+    "cta": "Lire l'article",
+    "timestamp": "2026-03-19T08:30:00"
+  },
+  {
+    "id": "notif-005",
+    "type": "renewal",
+    "title": "Renouvellement — BNP Paribas",
+    "body": "Contrat expire dans 78 jours. Préparer la proposition de renouvellement.",
+    "account_id": "acc-008",
+    "urgency": "medium",
+    "cta": "Préparer l'offre",
+    "timestamp": "2026-03-19T09:00:00"
+  }
+]

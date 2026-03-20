@@ -1,0 +1,74 @@
+[
+  {
+    "id": "act-001",
+    "type": "call",
+    "subject": "Suivi contrat renouvellement",
+    "account_id": "acc-003",
+    "account_name": "Société Générale",
+    "opp_id": "opp-003",
+    "due_date": "2026-03-19T10:00:00",
+    "status": "overdue",
+    "notes": null,
+    "am_id": "am-thomas-001"
+  },
+  {
+    "id": "act-002",
+    "type": "meeting",
+    "subject": "Quarterly Business Review — Engie",
+    "account_id": "acc-002",
+    "account_name": "Engie Digital",
+    "opp_id": "opp-002",
+    "due_date": "2026-03-19T15:00:00",
+    "status": "upcoming",
+    "notes": "Préparer slides pipeline + expansion Public Cloud",
+    "am_id": "am-thomas-001"
+  },
+  {
+    "id": "act-003",
+    "type": "task",
+    "subject": "Envoyer proposition commerciale Leroy Merlin",
+    "account_id": "acc-004",
+    "account_name": "Leroy Merlin",
+    "opp_id": "opp-004",
+    "due_date": "2026-03-20T17:00:00",
+    "status": "upcoming",
+    "notes": null,
+    "am_id": "am-thomas-001"
+  },
+  {
+    "id": "act-004",
+    "type": "call",
+    "subject": "Point livraison Bare Metal Decathlon",
+    "account_id": "acc-001",
+    "account_name": "Decathlon Group",
+    "opp_id": "opp-001",
+    "due_date": "2026-03-21T09:30:00",
+    "status": "upcoming",
+    "notes": null,
+    "am_id": "am-thomas-001"
+  },
+  {
+    "id": "act-005",
+    "type": "meeting",
+    "subject": "Kick-off LVMH CDN project",
+    "account_id": "acc-006",
+    "account_name": "LVMH Digital",
+    "opp_id": "opp-006",
+    "due_date": "2026-03-22T14:00:00",
+    "status": "upcoming",
+    "notes": "Inviter l'équipe solution",
+    "am_id": "am-thomas-001"
+  },
+  {
+    "id": "act-006",
+    "type": "call",
+    "subject": "Appel découverte BNP Paribas Cloud",
+    "account_id": "acc-008",
+    "account_name": "BNP Paribas IT",
+    "opp_id": "opp-007",
+    "due_date": "2026-03-24T11:00:00",
+    "status": "upcoming",
+    "notes": null,
+    "am_id": "am-thomas-001"
+  }
+]
