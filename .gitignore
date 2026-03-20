@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+dist/
+.env
+.specs/
+_bmad-output/
+_bmad/
+*.xlsx
+package-lock.json

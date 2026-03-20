@@ -1,1 +1,169 @@
-/* Layout — filled in Step 3 */
+/* ===== APP SHELL ===== */
+#app-shell {
+  display: grid;
+  grid-template-columns: var(--nav-width) 1fr;
+  grid-template-rows: 1fr;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ===== LEFT NAV ===== */
+#nav-sidebar {
+  background: var(--color-nav-bg);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: #ffffff;
+}
+
+.nav-logo {
+  padding: var(--space-6) var(--space-6) var(--space-8) var(--space-6);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--header-height);
+}
+
+.nav-logo-text {
+  color: #ffffff;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.nav-logo-sub {
+  color: var(--color-nav-text);
+  font-size: var(--font-size-xs);
+}
+
+.nav-section-label {
+  display: none; /* Hide for true Tailwind look unless needed */
+}
+
+/* Nav Wrapper */
+#nav-sidebar nav {
+  padding: 0 var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  color: var(--color-nav-text);
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  transition: background 0.1s, color 0.1s;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+  user-select: none;
+  margin: 0 var(--space-6) var(--space-1);
+}
+
+.nav-item:hover {
+  color: #ffffff;
+}
+
+.nav-item.active {
+  background: var(--color-brand);
+  color: #ffffff;
+  font-weight: var(--font-weight-semibold);
+}
+
+.nav-item .nav-icon {
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.nav-badge {
+  margin-left: auto;
+  background: var(--color-surface);
+  color: var(--color-nav-bg);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  padding: 2px 8px;
+  border-radius: 12px;
+  min-width: 20px;
+  text-align: center;
+}
+
+.nav-user {
+  margin-top: auto;
+  padding: var(--space-6);
+  border-top: 1px solid rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--color-nav-text);
+}
+
+.nav-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-brand);
+  color: white;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ===== MAIN CONTENT ===== */
+#main-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--color-bg);
+}
+
+#kpi-bar {
+  background: transparent;
+  flex-shrink: 0;
+  min-height: var(--kpi-height);
+  display: flex;
+  align-items: stretch;
+  padding: var(--space-6) var(--space-8) var(--space-4);
+  gap: var(--space-4);
+}
+
+#kpi-bar.hidden {
+  display: none;
+}
+
+#page-outlet {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-6);
+  display: grid;
+  gap: var(--space-5);
+}
+
+/* Dashboard 2-column layout */
+#page-outlet.layout-dashboard {
+  grid-template-columns: 1fr 340px;
+  grid-template-rows: auto auto 1fr;
+  align-content: start;
+}
+
+/* ===== FLOATING MODAL OVERLAY ===== */
+#floating-modal-container {
+  position: fixed;
+  bottom: var(--space-5);
+  right: var(--space-5);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-3);
+}
